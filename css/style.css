@@ -4,6 +4,8 @@ body {
   padding: 0;
   font-family: 'Rubik', sans-serif;
   background-color: #eef0f4;
+  color: #432000;
+  user-select: none;
 }
 
 .container {
@@ -37,6 +39,12 @@ input {
 button {
   color: #fdfdfd;
   background-color: #ac485a;
+  cursor: pointer;
+}
+
+button:hover,
+button:focus {
+  background: #432000;
 }
 
 ul {
@@ -55,4 +63,10 @@ ul li {
   border-radius: 8px;
   flex-grow: 1;
   text-align: center;
+  cursor: pointer;
+}
+
+ul li:hover,
+ul li:focus {
+  background: #ffecc7;
 }
