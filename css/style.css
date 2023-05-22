@@ -38,3 +38,21 @@ button {
   color: #fdfdfd;
   background-color: #ac485a;
 }
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  margin-top: 1rem;
+  padding: 0;
+}
+
+ul li {
+  background-color: #fffdf8;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 0.75rem;
+  border-radius: 8px;
+  flex-grow: 1;
+  text-align: center;
+}
